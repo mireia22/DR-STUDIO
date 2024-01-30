@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,900&display=swap");
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --black: #202020;
+  --broken-white: #dadad6;
+  --white: #f3f3f2;
+  --gray: #d7d9d8;
+  --dark-gray: #b8b8b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+
+header,
+footer {
+  height: 3rem;
+  background-color: var(--broken-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main {
+  min-height: calc(100vh - 96px);
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh;
+  > h3 {
+    font-style: italic;
+    font-weight: 500;
+  }
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+.project-card p {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add a smooth transition effect for transform and opacity */
+}
+
+.project-card:hover > p {
+  transform: scale(1.05);
+  opacity: 1;
+}
+.card-image {
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  background-color: var(--gray);
+  overflow: hidden;
+}
+
+.card-image > img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.card-image:hover > img {
+  filter: grayscale(0%);
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+a {
+  color: var(--black);
+}
+
+.logo-container {
+  width: 2rem;
+  height: 2rem;
+  > img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
