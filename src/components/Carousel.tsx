@@ -1,4 +1,6 @@
-const Carousel = ({ project }) => {
+import { ProjectType } from "../types/Types";
+
+const Carousel = ({ project }: { project: ProjectType }) => {
   return (
     <ul className="flex flex-wrap gap-4 justify-center w-[80vw]">
       {project.images.map((image, index) => (
