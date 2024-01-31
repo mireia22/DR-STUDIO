@@ -3,18 +3,23 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header>
-      <nav>
+    <header
+      className="flex flex-col items-center py-2 px-6 justify-between fixed w-full z-10 shadow-lg shadow-black/[0.1]  sm:h-12 sm:flex-row
+    "
+    >
+      <nav className="w-full flex justify-between items-center py-2 border-b-4 sm:justify-start gap-3 sm:border-none">
         <Link to="/">
           <Logo />
         </Link>
-        <Link to="/"> DÚNIA RODON</Link>
+        <Link to="/" className="font-semibold">
+          DÚNIA RODON
+        </Link>
       </nav>
 
-      <nav>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+      <nav className="w-full flex justify-between items-center py-2  sm:justify-end gap-3 sm:gap-6 ">
+        <Link to="/about">Sobre mi</Link>
+        <Link to="/">Proyectos</Link>
+        <Link to="/contact">Contacto</Link>
       </nav>
     </header>
   );

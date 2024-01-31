@@ -1,17 +1,22 @@
 import { v4 as uuidv4 } from "uuid";
-export const PROJECTS = [
+import { ProjectType } from "./types/Types";
+export const PROJECTS: ProjectType[] = [
   {
     id: uuidv4(),
-    title: "Lluernia",
-    mainImage: "../public/foc.png",
-    images: ["../public/1.png", "../public/2.png", "../public/3.png"],
-    description: "",
+    title: "Lluèrnia",
+    mainImage: "../foc.png",
+    images: ["/1.png", "/2.png", "/3.png"],
+    description: `Lluèrnia 2022 💛🔥 VÖLK
+
+    Instal·lació feta per @ariruni @noeeliia.23 i jo, amb l'ajuda de els companys de classe de @eadreus
+    
+    És una instal·lació que vol representar el pas de la vida. Fent referència a tots els alt i baixos que passem durant la nostra vida. El foc vol simbolitzar que mentre es manté encès la persona és viva.`,
   },
   {
     id: uuidv4(),
 
     title: "Tesla Event",
-    mainImage: "../public/tesla.png",
+    mainImage: "/tesla.png",
     images: [],
     description: "",
   },
@@ -19,7 +24,7 @@ export const PROJECTS = [
     id: uuidv4(),
 
     title: "Interior Home Design",
-    mainImage: "../public/interior.png",
+    mainImage: "/interior.png",
     images: [],
     description: "",
   },
@@ -27,7 +32,7 @@ export const PROJECTS = [
     id: uuidv4(),
 
     title: "Television Plate",
-    mainImage: "../public/platon.png",
+    mainImage: "/platon.png",
     images: [],
     description: "",
   },
@@ -35,28 +40,20 @@ export const PROJECTS = [
     id: uuidv4(),
 
     title: "Open Spaces",
-    mainImage: "../public/efimera.png",
+    mainImage: "/efimera.png",
     images: [],
     description: "",
   },
   {
     id: uuidv4(),
-    title: "",
+    title: "COMING SOON",
     mainImage: "",
     images: [],
     description: "",
   },
   {
     id: uuidv4(),
-    title: "",
-    mainImage: "",
-    images: [],
-    description: "",
-  },
-  {
-    id: uuidv4(),
-
-    title: "",
+    title: "COMING SOON",
     mainImage: "",
     images: [],
     description: "",
@@ -64,7 +61,15 @@ export const PROJECTS = [
   {
     id: uuidv4(),
 
-    title: "",
+    title: "COMING SOON",
+    mainImage: "",
+    images: [],
+    description: "",
+  },
+  {
+    id: uuidv4(),
+
+    title: "COMING SOON",
     mainImage: "",
     images: [],
     description: "",
