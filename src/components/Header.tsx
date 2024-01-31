@@ -7,7 +7,7 @@ const Header = () => {
       className="flex flex-col items-center py-2 px-6 justify-between fixed w-full z-10 shadow-lg shadow-black/[0.1]  sm:h-12 sm:flex-row
     "
     >
-      <nav className="w-full flex justify-between items-center py-2 border-b-4 sm:justify-start gap-3 sm:border-none">
+      <nav className="w-full flex justify-between items-center py-2 border-b-2 border-[#f3f3f2] sm:justify-start gap-3 sm:border-none">
         <Link to="/">
           <Logo />
         </Link>

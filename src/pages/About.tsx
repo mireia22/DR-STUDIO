@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex justify-center gap-4 sm:col-start-2 sm:col-end-2  ">
           <Link
             to="/"
-            className="p-2 bg-[#f3f3f2] rounded-lg bg-opacity-50 border-2  border-[#d7d9d8] font-semibold hover:border-[#f3f3f2] hover:bg-[#b8b8b8]"
+            className="p-2 bg-[#f3f3f2] rounded-lg bg-opacity-50 border-2  border-[#b8b8b8] font-semibold hover:border-[#f3f3f2] hover:bg-[#b8b8b8]"
           >
             Proyectos
           </Link>

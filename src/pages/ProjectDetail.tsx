@@ -26,7 +26,7 @@ const ProjectDetail = () => {
   }, [id]);
 
   return (
-    <section className="mt-[125px] flex flex-col gap-6 items-center px-10 py-4 justify-center">
+    <section className="mt-[125px] flex flex-col gap-6 items-center px-10 py-4 justify-center sm:w-[65vw]">
       <article className="flex flex-col gap-4 items-center justify-center w-[80vw]">
         <h2 className="text-3xl">{project?.title.toUpperCase()}</h2>
         <div className="w-full sm:w-[40rem]">
