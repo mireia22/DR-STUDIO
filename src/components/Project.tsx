@@ -3,7 +3,7 @@ import { ProjectType } from "../types/Types";
 
 const Project = ({ project }: { project: ProjectType }) => {
   return (
-    <li className="flex flex-col items-center text-center justify-center cursor-pointer transition-transform duration-200 ease-in-out ">
+    <li className="flex flex-col items-center text-center justify-center cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105">
       <Link to={`/project/${project.id}`}>
         <div className="w-[15rem] h-[15rem] flex justify-center bg-[#d7d9d8] overflow-hidden">
           <img

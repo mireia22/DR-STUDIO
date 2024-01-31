@@ -17,9 +17,15 @@ const Header = () => {
       </nav>
 
       <nav className="w-full flex justify-between items-center py-2  sm:justify-end gap-3 sm:gap-6 ">
-        <Link to="/about">Sobre mi</Link>
-        <Link to="/">Proyectos</Link>
-        <Link to="/contact">Contacto</Link>
+        <Link to="/about" className="hover:font-semibold">
+          Sobre mi
+        </Link>
+        <Link to="/" className="hover:font-semibold">
+          Proyectos
+        </Link>
+        <Link to="/contact" className="hover:font-semibold">
+          Contacto
+        </Link>
       </nav>
     </header>
   );

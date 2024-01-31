@@ -24,7 +24,7 @@
 body {
   min-width: 100vw;
   min-height: 100vh;
-  background-color: var(--white);
+  background-color: white;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 

@@ -1,8 +1,7 @@
-import { v4 as uuidv4 } from "uuid";
 import { ProjectType } from "./types/Types";
 export const PROJECTS: ProjectType[] = [
   {
-    id: uuidv4(),
+    id: "1",
     title: "Lluèrnia",
     mainImage: "../foc.png",
     images: ["/1.png", "/2.png", "/3.png"],
@@ -13,7 +12,7 @@ export const PROJECTS: ProjectType[] = [
     És una instal·lació que vol representar el pas de la vida. Fent referència a tots els alt i baixos que passem durant la nostra vida. El foc vol simbolitzar que mentre es manté encès la persona és viva.`,
   },
   {
-    id: uuidv4(),
+    id: "2",
 
     title: "Tesla Event",
     mainImage: "/tesla.png",
@@ -21,7 +20,7 @@ export const PROJECTS: ProjectType[] = [
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "3",
 
     title: "Interior Home Design",
     mainImage: "/interior.png",
@@ -29,7 +28,7 @@ export const PROJECTS: ProjectType[] = [
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "4",
 
     title: "Television Plate",
     mainImage: "/platon.png",
@@ -37,7 +36,7 @@ export const PROJECTS: ProjectType[] = [
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "5",
 
     title: "Open Spaces",
     mainImage: "/efimera.png",
@@ -45,21 +44,21 @@ export const PROJECTS: ProjectType[] = [
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "6",
     title: "COMING SOON",
     mainImage: "",
     images: [],
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "7",
     title: "COMING SOON",
     mainImage: "",
     images: [],
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "8",
 
     title: "COMING SOON",
     mainImage: "",
@@ -67,7 +66,7 @@ export const PROJECTS: ProjectType[] = [
     description: "",
   },
   {
-    id: uuidv4(),
+    id: "9",
 
     title: "COMING SOON",
     mainImage: "",
