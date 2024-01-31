@@ -11,14 +11,7 @@ export const PROJECTS: ProjectType[] = [
     
     És una instal·lació que vol representar el pas de la vida. Fent referència a tots els alt i baixos que passem durant la nostra vida. El foc vol simbolitzar que mentre es manté encès la persona és viva.`,
   },
-  {
-    id: "2",
 
-    title: "Tesla Event",
-    mainImage: "/tesla.png",
-    images: [],
-    description: "",
-  },
   {
     id: "3",
 
@@ -40,6 +33,14 @@ export const PROJECTS: ProjectType[] = [
 
     title: "Open Spaces",
     mainImage: "/efimera.png",
+    images: [],
+    description: "",
+  },
+  {
+    id: "2",
+
+    title: "Tesla Event",
+    mainImage: "/tesla.png",
     images: [],
     description: "",
   },

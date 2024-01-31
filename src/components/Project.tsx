@@ -9,7 +9,7 @@ const Project = ({ project }: { project: ProjectType }) => {
           <img
             src={project.mainImage}
             alt={project.title}
-            className="max-w-full max-h-full object-fill filter grayscale hover:filter-none transition-filter duration-00 ease-in-out"
+            className="max-w-full max-h-full object-cover filter grayscale hover:filter-none transition-filter duration-00 ease-in-out"
           />
         </div>
         <p className="opacity-70 mt-4 transition-opacity duration-200 ease-in-out hover:opacity-100">
