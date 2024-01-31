@@ -4,8 +4,12 @@ const About = () => {
   return (
     <section className="mt-[120px] flex flex-col gap-6 items-center px-10 py-4 justify-center sm:mt-20">
       <article className="grid auto-rows-auto gap-4 items-start justify-center text-center sm:grid-cols-2 sm:grid-rows-1 sm:gap-6 sm:items-center sm:w-[65vw]">
-        <div className="justify-self-center sm:row-span-2">
-          <img src="../../about.png" alt="me" />
+        <div className="justify-self-center sm:row-span-2 w-[18rem]  ">
+          <img
+            src="../../about.png"
+            alt="DUNIA"
+            className="grayscale hover:grayscale-0"
+          />
         </div>
         <p className="sm:text-center">
           Soy Dúnia, diseñadora apasionada de espacios. En mi estudio, fusiono
