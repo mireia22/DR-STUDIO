@@ -17,7 +17,7 @@ const About = () => {
         </p>
         <div className="flex justify-center gap-4 sm:col-start-2 sm:col-end-2  ">
           <Link
-            to="/projects"
+            to="/"
             className="p-2 bg-[#f3f3f2] rounded-lg bg-opacity-50 border-2  border-[#d7d9d8] font-semibold"
           >
             Proyectos
