@@ -1,4 +1,8 @@
-const Carousel = ({ images }) => {
+interface CarouselProps {
+  images: string[];
+}
+
+const Carousel: React.FC<CarouselProps> = ({ images }) => {
   return (
     <ul className="flex flex-wrap gap-4 justify-center w-[80vw] sm:w-[66vw]">
       {images.map((image, index) => (

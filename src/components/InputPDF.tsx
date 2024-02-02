@@ -1,4 +1,8 @@
-const InputPDF = ({ routePDF }) => {
+interface InputPDFProps {
+  routePDF: string;
+}
+
+const InputPDF: React.FC<InputPDFProps> = ({ routePDF }) => {
   const filename = routePDF?.split("/").pop();
   return (
     <a
