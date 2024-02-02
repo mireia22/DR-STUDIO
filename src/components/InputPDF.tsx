@@ -1,5 +1,5 @@
 interface InputPDFProps {
-  routePDF: string;
+  routePDF?: string;
 }
 
 const InputPDF: React.FC<InputPDFProps> = ({ routePDF }) => {
