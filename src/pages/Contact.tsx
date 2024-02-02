@@ -9,6 +9,7 @@ const Contact = () => {
           src="/logo-black.png"
           alt="Logo"
           className="max-w-full max-h-full"
+          loading="lazy"
         />
       </article>
       <article>

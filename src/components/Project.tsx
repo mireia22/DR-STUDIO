@@ -9,6 +9,7 @@ const Project = ({ project }: { project: ProjectType }) => {
           <img
             src={project.mainImage}
             alt={project.title}
+            loading="lazy"
             className="max-w-full max-h-full object-cover filter grayscale hover:filter-none transition-filter duration-00 ease-in-out"
           />
         </div>

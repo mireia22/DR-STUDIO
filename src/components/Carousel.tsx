@@ -11,6 +11,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             src={image}
             alt={` - Image ${index + 1}`}
             className="h-full w-full object-cover"
+            loading="lazy"
           />
         </li>
       ))}

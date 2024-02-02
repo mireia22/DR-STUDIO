@@ -9,6 +9,7 @@ const About = () => {
             src="../../about.png"
             alt="DUNIA"
             className="grayscale hover:grayscale-0"
+            loading="lazy"
           />
         </div>
         <p className="sm:text-center">

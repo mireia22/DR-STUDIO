@@ -32,6 +32,7 @@ const ProjectDetail = () => {
             src={project?.mainImage}
             alt={project?.title}
             className="w-full "
+            loading="lazy"
           />
         </div>
         <p className="text-sm leading-8 text-center sm:w-[40rem]">
