@@ -16,7 +16,7 @@ export const PROJECTS: ProjectType[] = [
     ],
     description: `Trabajo para exposición de trabajos de exalumnos. El concepto de l'exposición seria SENCILLEZ, y su nombre hacee referencia a seguir adelante con los conocimientos adquiridos. `,
     category: "interior",
-    pdf: ".../avant/AVANT.pdf",
+    pdf: "../avant/AVANT.pdf",
     color: "#0183aa",
   },
   {
@@ -38,7 +38,7 @@ export const PROJECTS: ProjectType[] = [
     ],
     description: `Silla creada con DM sin utilizar ningun tipo de material adesivo, solo con encajes. `,
     category: "interior",
-    pdf: ".../cadira/CADIRA.pdf",
+    pdf: "../cadira/CADIRA.pdf",
     color: "#1d1d1d",
   },
   {
@@ -58,7 +58,7 @@ export const PROJECTS: ProjectType[] = [
     ],
     description: `Propuesta de remodelación de una de las plantas de CosmoCaixa. Los hexagonos són elementos protagonistas en el diseño, aportando referencias naturales. `,
     category: "interior",
-    pdf: ".../cosmocaixa/COSMOCAIXA.pdf",
+    pdf: "../cosmocaixa/COSMOCAIXA.pdf",
     color: "#1d1d1d",
   },
   {
@@ -93,7 +93,7 @@ export const PROJECTS: ProjectType[] = [
     l'amo. Com a vegetació s'ha fet una recerca
     de vegetació autòctona i hem fet una selecció de la natura que voldríem aplicar.`,
     category: "interior",
-    pdf: ".../habitacola/HABITACOLA.pdf",
+    pdf: "../habitacola/HABITACOLA.pdf",
     color: "#1d1d1d",
     video: "../public/habitacola/Cal mero.mp4",
   },
@@ -123,7 +123,7 @@ export const PROJECTS: ProjectType[] = [
     Aquesta intervenció està molt relacionada amb l’espai gràcies a la corda que ens relaciona l’intervenció amb el rocòdrom situat en aquesta
     ubicació.`,
     category: "exterior",
-    pdf: ".../lluernia/LLUERNIA.pdf",
+    pdf: "../lluernia/LLUERNIA.pdf",
     color: "#ffe001",
   },
   {
@@ -155,7 +155,7 @@ export const PROJECTS: ProjectType[] = [
       antigua del edificio, haciendo referencia 
       a las piedras de l'exterior. `,
     category: "exterior",
-    pdf: ".../logotip-centresocial/ELROSER.pdf",
+    pdf: "../logotip-centresocial/ELROSER.pdf",
     color: "#2d2a26",
   },
   {
@@ -192,7 +192,7 @@ export const PROJECTS: ProjectType[] = [
     
     `,
     category: "interior",
-    pdf: ".../pfc-expo/PFC.pdf",
+    pdf: "../pfc-expo/PFC.pdf",
     color: "#e99394",
   },
   {
@@ -266,7 +266,7 @@ export const PROJECTS: ProjectType[] = [
     
     `,
     category: "interior",
-    pdf: ".../redskate-store/REDSKATE.pdf",
+    pdf: "../redskate-store/REDSKATE.pdf",
     color: "#f27676",
   },
   {
@@ -310,7 +310,7 @@ podria atravessar el mar.
     
     `,
     category: "exterior",
-    pdf: ".../rosesreus/ROSESREUS.pdf",
+    pdf: "../rosesreus/ROSESREUS.pdf",
     color: "#4862aa",
   },
   {
@@ -369,7 +369,7 @@ podria atravessar el mar.
     
     `,
     category: "exterior",
-    pdf: ".../tesla/TESLA.pdf",
+    pdf: "../tesla/TESLA.pdf",
     color: "#951929",
   },
 ];

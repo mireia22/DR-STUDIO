@@ -15,7 +15,7 @@ const InputPDF: React.FC<InputPDFProps> = ({ routePDF }) => {
       download={filename}
       target="_blank"
     >
-      Download PDF
+      Descargar PDF del Proyecto
     </a>
   );
 };
